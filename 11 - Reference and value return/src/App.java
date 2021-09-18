@@ -27,7 +27,7 @@ public class App {
     }
 
     public static void changeReference(int array[]){
-        //array = new int[2];  //If on, reference stops working
+        //array = new int[2];  //If on, reference stops working (CREATES LOCAL VAR, and changes array address)
         array[0]++;
         //array = new int[2]; //Doesnt make any difference
     }
