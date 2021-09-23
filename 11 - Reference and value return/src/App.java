@@ -26,9 +26,10 @@ public class App {
         a++;
     }
 
+    //Passing as "reference" creates a COPY of the object with the same addresses of memory
     public static void changeReference(int array[]){
         //array = new int[2];  //If on, reference stops working (CREATES LOCAL VAR, and changes array address)
         array[0]++;
-        //array = new int[2]; //Doesnt make any difference
+        //array = new int[2]; //Doesnt make any difference here
     }
 }
