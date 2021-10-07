@@ -34,6 +34,8 @@ public class App {
 
 
         //Reuse Array (Expand)-----------------------------
+        System.out.println("\nExpand Array");
+        
             int[] a2 = Arrays.copyOf(a, 20);  
             //a2[12] = 10; 
             a = a2;
@@ -46,8 +48,9 @@ public class App {
 
 
         //Array Loop -----------------------------
-            int loop[] = {2,4,8};
+        System.out.println("\nArray Loop");
 
+            int loop[] = {2,4,8};
             //Until reaches loop.length (Will execute 3 times)
             for(int valueOfOneIndex : loop){
                 System.out.print(valueOfOneIndex + " ");
@@ -57,7 +60,9 @@ public class App {
 
 
         //.LENGTH Test ---------------------------
-            int test1[] = new int[10] ; //lenght is 10, independent of how many things are modified
+        System.out.println("\n.LENGTH Test");
+        
+            int test1[] = new int[10]; //lenght is 10, independent of how many things are modified
                 test1[0] = 1;
                 test1[1] = 1;
                 test1[2] = 1;
@@ -66,8 +71,7 @@ public class App {
                 
             System.out.println(test1.length);    
             System.out.println(test2.length);   
-            
-            
+                
 
     }
 }
